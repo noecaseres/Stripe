@@ -1,0 +1,50 @@
+.btn{
+    background-color: $black-text;
+    color: $white-text;
+    padding: 0.5rem 0.75rem;
+    border-radius: .25rem;
+    transition: all 0.3s linear;
+
+    &:hover{
+        background-color: $white-text;
+        color: $black-text;
+    }
+}
+
+.btn-toggle{
+    background:transparent;
+    font-size: 1.5rem;
+
+    @media (min-width: 800px) {
+            display: none; 
+    }
+}  
+
+@media (min-width: 800px) {
+    .btn-toggle{
+        display: none;
+    }  
+}
+
+.signin-btn {
+    display: none;
+
+    @media (min-width: 800px) {
+        display: inline-block;
+    }
+  }
+
+
+.close-btn{
+    background-color: transparent;
+    font-size: 1.25rem;
+    right: 0;
+    top: 0;
+    position: absolute;
+    padding: 0.75rem;
+    cursor: pointer;
+}
+
+
+
+
